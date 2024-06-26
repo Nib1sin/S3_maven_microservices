@@ -23,6 +23,7 @@
   <modules>
     <module>microservice-gateway</module>
     <module>microservice-eureka</module>
+    <module>microservice-conifg</module>
   </modules>
 
   <properties>

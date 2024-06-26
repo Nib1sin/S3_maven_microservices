@@ -10,11 +10,11 @@
 		<version>1.0-SNAPSHOT</version>
 	</parent>
 
-	<groupId>com.efosft.microservice.eureka</groupId>
-	<artifactId>microservice-eureka</artifactId>
+	<groupId>com.efosft.microservice.conifg</groupId>
+	<artifactId>microservice-conifg</artifactId>
 	<version>0.0.1-SNAPSHOT</version>
-	<name>microservice-eureka</name>
-	<description>Spring Boot 3 Microservice Eureka</description>
+	<name>microservice-conifg</name>
+	<description>Spring Boot 3 Microservice Conifg</description>
 	<url/>
 	<licenses>
 		<license/>
@@ -34,16 +34,8 @@
 	</properties>
 	<dependencies>
 		<dependency>
-			<groupId>org.springframework.boot</groupId>
-			<artifactId>spring-boot-starter-actuator</artifactId>
-		</dependency>
-		<dependency>
 			<groupId>org.springframework.cloud</groupId>
-			<artifactId>spring-cloud-starter-config</artifactId>
-		</dependency>
-		<dependency>
-			<groupId>org.springframework.cloud</groupId>
-			<artifactId>spring-cloud-starter-netflix-eureka-server</artifactId>
+			<artifactId>spring-cloud-config-server</artifactId>
 		</dependency>
 
 		<dependency>
