@@ -1,6 +1,7 @@
 package com.efsoft.microservice.course.service;
 
 import com.efsoft.microservice.course.entitites.Course;
+import com.efsoft.microservice.course.http.response.StudentByCourseResponse;
 
 import java.util.List;
 
@@ -12,4 +13,5 @@ public interface ICourseService {
 
     void save(Course course);
 
+    StudentByCourseResponse findStudentsByIdCourse(Long idCourse);
 }
